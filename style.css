@@ -28,6 +28,17 @@ main{
         font-family: "Noto Sans", sans-serif;
         font-weight: 700;
     }
+    /* section-1 */
+    .section-1{
+        background: rgba(54,95, 163, 1);
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 600;
+        height: 6rem;
+        color: rgba(255, 255, 255, 1);
+    }
+    .section-2{
+        background-color: rgb(254, 254, 254);
+    }
 
     @media (max-width: 475px) {
         main p{
@@ -36,6 +47,7 @@ main{
         main h2{
             width: 100%;
         }
+       
     }
 
     @media (min-width:768px) {
@@ -44,10 +56,13 @@ main{
         }
         main h2{
             width:30%;
-
         }
-        
-    }
+        .section-1 h3{
+            width: 45%;
+            margin: auto;
+        }
+     }
+
         
 
 
